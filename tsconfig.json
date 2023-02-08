@@ -1,0 +1,9 @@
+{
+  "esm": true,
+  "compilerOptions": {
+    // 简化 import * as express from 'express'
+    "esModuleInterop": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules"]
+}
