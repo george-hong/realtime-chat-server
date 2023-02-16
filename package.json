@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/george-hong/realtime-chat-server#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "crypto-js": "^4.1.1",
     "express": "^4.18.2",
+    "express-ws": "^5.0.2",
     "jsonwebtoken": "^9.0.0",
     "jsrsasign": "^10.6.1",
     "lodash.clonedeep": "^4.5.0",
