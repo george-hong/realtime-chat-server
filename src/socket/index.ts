@@ -1,10 +1,9 @@
+import ChatSocket from './chat-socket';
+
 const getSocketMiddleWare = (wsApp) => {
   return function(ws, res, next) {
-    ws.on('message', () => {
-      console.log('msss');
-    });
 
-    ws.send('ok');
+    const chatSocket = new ChatSocket(ws, wsApp);
 
     next();
   }
